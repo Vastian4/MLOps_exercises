@@ -1,0 +1,38 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.11.5",
+  "startedAt": "2025-01-09T11:48:46.717295Z",
+  "program": "c:\\Users\\Bastian Ravn\\OneDrive\\7. Semester\\Machine learning operations\\session2\\Module_2_code_structure\\code_structure_exercises\\src\\code_structures_project\\train.py",
+  "codePath": "src\\code_structures_project\\train.py",
+  "email": "bastian@gulstad.dk",
+  "root": "C:\\Users\\Bastian Ravn\\OneDrive\\7. Semester\\Machine learning operations\\session2\\Module_2_code_structure\\code_structure_exercises",
+  "host": "DESKTOP-8LUQK9Q",
+  "executable": "C:\\virtual_environments\\my_environment2\\Scripts\\python.exe",
+  "codePathLocal": "src\\code_structures_project\\train.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 1660",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "999545962496",
+      "used": "769412620288"
+    }
+  },
+  "memory": {
+    "total": "17071464448"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1660",
+      "memoryTotal": "6442450944",
+      "cudaCores": 1408,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.3"
+}
