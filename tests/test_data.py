@@ -1,7 +1,7 @@
 from torch.utils.data import Dataset
 import pytest
 
-from code_structures_project.data import MyDataset
+from src.code_structures_project.data import MyDataset
 
 import os.path
 @pytest.mark.skipif(not os.path.exists("data/raw"), reason="Data files not found")
