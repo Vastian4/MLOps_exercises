@@ -3,7 +3,7 @@ import pytest
 
 from code_structures_project.model import my_model
 
-@pytest.mark.parametrize("batch_size", [16, 32, 64])
+@pytest.mark.parametrize("batch_size", [16, 32, 64, 128])
 def test_model(batch_size):
     model = my_model()
     x = torch.randn(batch_size, 1, 28, 28)
