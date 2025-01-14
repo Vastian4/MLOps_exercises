@@ -33,7 +33,7 @@ class my_model(torch.nn.Module):
         #error messages
         if x.ndim != 4:
             raise ValueError("Input should be a 4D tensor")
-        if x.shape[1] != 1 or (x.shape[2] != 28) or (x.shape[3] != 28):
+        if (x.shape[1] != 1) or (x.shape[2] != 28) or (x.shape[3] != 28):
             raise ValueError("Samples should have shape [1, 28, 28]")
 
         x = self.acti1(self.conv1(x))
