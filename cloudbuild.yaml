@@ -15,3 +15,5 @@ steps:
     'push',
     'europe-west1-docker.pkg.dev/$PROJECT_ID/my-container-registry/test_image'
   ]
+options:
+  logging: CLOUD_LOGGING_ONLY
